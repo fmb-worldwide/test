@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dgwm1a4k5tny/public_html/fmb
+    - /bin/cp -R images $DEPLOYPATH
